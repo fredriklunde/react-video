@@ -7,6 +7,6 @@ export default axios.create({
     params: {
         part: 'snippet',
         maxResults: 5,
-        key=youtubeApiKey
+        key: youtubeApiKey
     }
 });
